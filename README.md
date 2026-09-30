@@ -322,6 +322,10 @@ Identity, marketplace, and services platform for AI agents on Base L2. Productio
 
 - [ERC-8004 AI agent demo](https://github.com/sparsity-xyz/sparsity-demo)
 
+**[CWI Trust Verdict Checker](https://cumulativewebinc.github.io/cwi-trust-verdict-checker/)**
+
+- Deterministic, evidence-bound trust scoring for AI agents: aggregates ERC-8004 identity, Needle Drop verified-history, and First Spin published-verdict signals, closing the score-aggregation, Sybil-resistance, and dispute-resolution gaps the standard leaves open. Thin evidence yields an honest "insufficient-data", never an invented score. Runs fully in the browser — nothing is uploaded, no signup. [Demo](https://cumulativewebinc.github.io/cwi-trust-verdict-checker/demo.html)
+
 ### Identity & Trust
 
 **[RNWY](https://rnwy.com)**
@@ -398,6 +402,10 @@ Off-chain EigenTrust compute layer for ERC-8004. Graph-based trust scores with S
 - [Agent Review API (Cloudflare Worker)](https://laplace-agent-review.laplace0x.workers.dev) - Agent trust assessment service
 - [Multi-Chain Registration Report (GitHub Issue #72)](https://github.com/erc-8004/erc-8004-contracts/issues/72) - Detailed experience report from registering on 4 chains with ecosystem review data
 - [@agentLaplace on X](https://x.com/agentLaplace) - Crypto intelligence, agent economy coverage, and ERC-8004 ecosystem analysis
+
+**[CWI x402 Music Data API](https://cwi-x402-api-production.up.railway.app/pricing)**
+
+- 10 paid x402 v2 routes on Base mainnet (USDC, $0.05-$0.25/call): verified playlist placements, momentum scores, citeable wins feeds, machine-readable rights summaries, clearance checks, copy verification. 7 free-forever routes; "First 1,000 calls free" program with no-signup keys. Every 402 carries Bazaar discovery info and a JSON schema. Example: `GET /api/v1/playlist-check?track=Zooted+Zone`
 
 ### Applications & Demos
 
